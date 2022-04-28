@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="bird0">images/bird0_0.png</file>
+        <file alias="bird1">images/bird0_1.png</file>
+        <file alias="bird2">images/bird0_2.png</file>
+        <file alias="bg">images/bg_day.png</file>
+        <file alias="land">images/land.png</file>
+        <file alias="piped">images/pipe_down.png</file>
+        <file alias="pipeu">images/pipe_up.png</file>
+        <file alias="pause">images/button_pause.png</file>
+        <file alias="play">images/button_play.png</file>
+        <file alias="resume">images/button_resume.png</file>
+        <file alias="ok">images/button_ok.png</file>
+        <file alias="scorepanel">images/score_panel.png</file>
+        <file alias="gameover">images/text_game_over.png</file>
+        <file alias="medal1">images/medals_1.png</file>
+        <file alias="modebtn">images/modebtn.png</file>
+        <file alias="space">images/bg_space.png</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file alias="bgm">sounds/bgm.mp3</file>
+        <file alias="effect">sounds/effect.wav</file>
+    </qresource>
+</RCC>
