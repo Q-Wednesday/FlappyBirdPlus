@@ -9,9 +9,6 @@ Wall::Wall(qreal y,int type,GameController& controller):
     pos.setX(800);
      pos.setY(y);
      m_type=type;
-
-    move=false;
-    move_mode=false;
 }
 
 QRectF Wall::boundingRect() {
@@ -37,16 +34,5 @@ void Wall::paint(QPainter &painter){
 
 void Wall::advance(){
         pos.setX(pos.x()-xspeed);
-        if(move){
-            if(pos.y()<120||pos.y()>350){
-                move_mode=!move_mode;
-            }
-            if(move_mode){
-              pos.setY(pos.y()+xspeed);
-            }
-            else{
-               pos.setY(pos.y()-xspeed);
-            }
-        }
 
 }

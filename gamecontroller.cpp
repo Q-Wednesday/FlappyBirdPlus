@@ -198,7 +198,6 @@ void GameController::addWall(){
     Wall* wall2=new Wall(wally,0,*this);
     wall_queue.push_back(wall1);
     wall_queue.push_back(wall2);
-    if(mode==DANCING){wall1->move=true;wall2->move=true;}
 }
 
 void GameController::set_mode(game_mode m){

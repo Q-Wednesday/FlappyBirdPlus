@@ -76,45 +76,18 @@ void MainWindow::on_ResumeBtn_clicked()
 
 void MainWindow::showall(){
     ui->StartBtn->setVisible(true);
-    ui->mode1btn->setVisible(true);
     ui->mode_label->setVisible(true);
-    ui->mode2btn->setVisible(true);
     ui->PauseBtn->setVisible(false);
 }
 void MainWindow::hideall(){
     ui->ResumeBtn->setVisible(false);
-    ui->mode1btn->setVisible(false);
     ui->mode_label->setVisible(false);
-    ui->mode2btn->setVisible(false);
     ui->StartBtn->setVisible(false);
     ui->PauseBtn->setVisible(true);
-}
-void MainWindow::on_mode1btn_clicked()
-{
-    if(controller->get_mode()!=DANCING){
-    controller->set_mode(DANCING);
-
-    ui->mode_label->setText("LET'S DANCING!");
-    }
-    else{
-        controller->set_mode(NORMAL);
-        ui->mode_label->setText("NORMAL MODE");
-    }
-
 }
 
 QPushButton* MainWindow::getResumeBtn(){
     return  ui->ResumeBtn;
 }
 
-void MainWindow::on_mode2btn_clicked()
-{
-    if(controller->get_mode()!=WEIGHTLESS){
-        controller->set_mode(WEIGHTLESS);
-        ui->mode_label->setText("Wightless Now");
 
-    }else{
-        controller->set_mode(NORMAL);
-        ui->mode_label->setText("NORMAL MODE");
-    }
-}

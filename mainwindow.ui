@@ -151,29 +151,6 @@ background-image: url(:/images/resume);</string>
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="mode1btn">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>340</y>
-      <width>149</width>
-      <height>64</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Nirmala UI</family>
-      <pointsize>11</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/modebtn);
-background-color: rgba(255, 255, 255, 0);</string>
-    </property>
-    <property name="text">
-     <string>dancing mode !</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="mode_label">
     <property name="geometry">
      <rect>
@@ -195,22 +172,6 @@ background-color: rgba(255, 255, 255, 0);</string>
      <string>NORMAL MODE</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="mode2btn">
-    <property name="geometry">
-     <rect>
-      <x>310</x>
-      <y>430</y>
-      <width>151</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-image: url(:/images/modebtn);</string>
-    </property>
-    <property name="text">
-     <string>weightless~mode~</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -218,7 +179,7 @@ background-color: rgba(255, 255, 255, 0);</string>
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>26</height>
+     <height>24</height>
     </rect>
    </property>
   </widget>

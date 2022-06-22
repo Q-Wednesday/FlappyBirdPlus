@@ -37,8 +37,6 @@ private slots:
     void on_StartBtn_clicked();
     void on_PauseBtn_clicked();
     void on_ResumeBtn_clicked();
-    void on_mode1btn_clicked();
-    void on_mode2btn_clicked();
 
 private:
 

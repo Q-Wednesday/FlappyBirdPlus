@@ -18,8 +18,6 @@ private:
     friend GameController;
     GameController& controller;
     int m_type;
-    bool move;
-    bool move_mode;
 };
 
 #endif // WALL_H
